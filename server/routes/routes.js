@@ -16,6 +16,11 @@ module.exports = function(app){
       if (data) {
         res.status(200).json(data)
       }
+      else{
+        res.status(500).send({
+          message: 'Error de conexión con la BBDD'
+        });
+      }
     });
   });
 
