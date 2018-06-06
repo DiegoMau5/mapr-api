@@ -4,7 +4,7 @@
   "description": "mapp r app",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon server/index.js",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Diego Gutiérrez Blanco & Sebastian Paduano",
