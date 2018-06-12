@@ -9,15 +9,6 @@ var db_config = {
   database: 'heroku_747ea78b85bca6a'
 };
 
-// connection.connect(err => {
-//   if(err) {
-//     return err;
-//     console.log(err);
-//   }
-//   else{
-//     console.log("Conexión con la base de datos correcta");
-//   }
-// });
 
 var connection;
 
